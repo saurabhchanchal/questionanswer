@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .maindiv {
+            margin-left: 70px;
+        }
+        h3 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+    <!-- view port sreen relative,sticky(not scrooling), absolute(according to view port screen),fixed(acc to view port screen not scrool) -->
+    <h1>CSS</h1>
+
+    <h3>What is CSS ?</h3>
+    <p>Cascading style sheet (CSS) is used to format the layout of a webpage. with CSS, you can control the color,font, the size of text, the spacing between
+        elements, how elements are positioned and laid out, what background images or background color are to be used, different display for different different
+        divices and screen sizes, and much more!.
+    </p>
+
+
+    <h3>what is box model?</h3>
+    <p>* In CSS,the term "box model" is used when taking about design and layout.</p>
+    <p>* The CSS box model is essentially a box that wraps around every HTML element. It consists of: Margin, Borders,Padding, and actual content.</p> 
+
+    <h3>what is the difference b/w padding and margin ?</h3>
+    <p>* padding is the space between element and related content inside it. margin is space around element.</p>
+    <p>* It is not possibe to set auto padding but for margin it is possible to set auto margin.</p>
+    <p>* It is not possible to use negative when defining padding, but you can with margins. </p>
+    <p>* padding can be impacted by the styling of other elements, margin wou't be impacted by the styling of other elements.</p>
+
+    <h3>what is the Z index?</h3>
+    <p>* Z index is the property which specify the stack order of element</p>
+    <p>* An element with greater stack order is always in front of an element with lower stack order.</p>
+
+    <h3>How can we hide the div?</h3>
+    <p>* if we use "display:none" in css and it will not take any space</p>
+    <p>* if we use "visibility: hidden" it hide the element but still effect the layout.</p>
+
+    <h3>what is the difference between class and id?</h3>
+    <p>* Class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page.</p>
+
+    <h3>What is the difference between inline, inline-block, and block?</h3>
+    <p>* Compared to display:inline, the major difference is that display: inline-block allows to set a height and width on the element.</p>
+    <p> also top and bottom margins/padding are respected in inline-block but with inline they are not</p>
+    <p>* Compared tp display:block, the major difference is  that display:inline-block does not add a line-break after the element,</p>
+    <p>   so the element can sit next to other elements.</p>
+
+    <h3>what are the css selectors?</h3>
+    <p>* CSS selectors are used to "Select" the HTML elements you want to style.</p>
+    <p>* We can divide CSS selectors into five categories</p>
+         <h4>1. Simple selectors (select elements based on name,id ,class)</h4>
+         <h4>2. Combinator selectors (select elements based on specific relationship between them)</h4>
+         <h4>3. Pseudo-class selectors (select elements based on a certain state)</h4>
+         <h4>4. Pseudo-elements selectors (select and style part of elements)</h4> 
+         <h4>5. Attributes selectors (select elements based on on an attributes)</h4> 
+
+   <h3>Combinator selectors?(select elements based on specific relationship between them)</h3>   
+   <p>* There are four different combinator in CSS.</p> 
+          <h4>1. descendant selector(space)</h4>  
+          <h4>2. child selector(>)</h4>
+          <h4>3. Adjecent sibling selector(+)</h4>
+          <h4>4. general sibling selectors(~)</h4>
+
+
+    <h3>What are Pseudo-classes?</h3> 
+    <p>* Pseudo-class is used to define special state of an element.</p> 
+    <p>for example, It can be used to.</p>   
+       <p><b>. style an element when a user mouses hover it.</b></p>
+       <p><b>. style visited and unvisited links differently.</b></p>
+       <p><b>. style an element when it focus.</b></p>
+
+   <h3>What are Pseudo-Elements?</h3> 
+   <p>* Pseudo-elements is used to style specific parts of elements.</p> 
+   <p>for example , It can be used to.</p>  
+       <p><b>. Style the first letter, or line, of an element.</b></p>
+       <p><b>. Insert content before, or after , the content of an element.</b></p>
+
+   <h3>CSS [attribute="value"]  Selector ?</h3>   
+   <p>* The [attribute] selector is used to select elements with a specified attribute.</p> 
+
+   <h3>CSS margin ?</h3>
+   <p>* The CSS margin properties are used to create space around elements, outside of any defined border.</p>
+   <p>When one value is specified, it applies the same margin to all four sides. <br>
+    When two values are specified, the first margin applies to the top and bottom, the second to the left and right. <br>
+    When three values are specified, the first margin applies to the top, the second to the right and left, the third to the bottom. <br>
+    When four values are specified, the margins apply to the top, right, bottom, and left in that order (clockwise).</p>
+
+    <h3>what is a Hook?</h3>
+    <p>* Hooks are functions that let you “hook into” React state and lifecycle features from function components. <br>
+         Hooks don’t work inside classes — they let you use React without classes.</p>
+    <p>* Hooks allow you to reuse stateful logic without changing your component hierarchy.</p>  
+    <p>* Hooks let you split one component into smaller functions based on what pieces are related</p>   
+    <p>* Hooks let you use more of React’s features without classes.</p>
+
+    <h3>What Are Semantic HTML Tags?</h3>
+    <p>* Semantic HTML tags are tags that define the meaning of the content they contain. </p>
+    <p>* For example, tags like header article  and footer, nav  semantic HTML tags. They clearly indicate the role of the content they contain.</p>
+    <p>* On the other hand, tags like<div> and <span> are typical examples of non-semantic HTML elements.</p>
+
+    <h3>What is difference between libery and framework.</h3>   
+    <p>* Libery provide developers with predefine function and classes to make work easier and boost the development process. </p> 
+    <p>* Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms. </p>
+    <p>* the main difference is the inversion of contorl.</p>
+    <p>* By using liberys you can control the flow of application and call the libery. </p>
+    <p>* In opposite, when you use the framework , framework contorl the flow of application, calls your code.</p>
+    <p>Examples=> libery (JQuery, React JS, etc.),  framework	(Spring, NodeJS, AngularJS, Vue JS, etc.)</p>
+
+   <h1>HTML</h1> 
+   
+</div>
+</body>
+</html>
+<script>
+
+ 
+// <!DOCTYPE html>
+// <html>
+// <head>
+// <style>
+// a[target=_blank] {
+//   background-color: yellow;
+// }
+// </style>
+// </head>
+// <body>
+
+// <h2>CSS [attribute="value"] Selector</h2>
+// <p>The link with target="_blank" gets a yellow background:</p>
+
+// <a href="https://www.w3schools.com">w3schools.com</a>
+// <a href="http://www.disney.com" target="_blank">disney.com</a>
+// <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+// </body>
+// </html>
+
+</script>
